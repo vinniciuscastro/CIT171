@@ -51,7 +51,7 @@ function userlogin(){
     setusername();
     $.ajax({
         type: 'POST',
-        url: 'https://dev.stedi.me/login',
+        url: 'https://dev.stedi.me/login', //updates on week 2
         data: JSON.stringify({userName, password}),
         success: function(data) {
             window.location.href = "/timer.html#"+data;//add the token to the url

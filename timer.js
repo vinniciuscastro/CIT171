@@ -78,7 +78,7 @@
         let tokenEmail="";
         $.ajax({
            type: 'GET',
-            url: 'https://dev.stedi.me/validate/'+usertoken,
+            url: 'https://dev.stedi.me/validate/'+usertoken, //updates class 8
             success: function(data){
                if (data==""){
                  window.location="/"

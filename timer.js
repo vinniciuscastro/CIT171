@@ -78,7 +78,7 @@
         let tokenEmail="";
         $.ajax({
            type: 'GET',
-            url: 'https://dev.stedi.me/validate/'+usertoken, //updates class 8
+            url: 'https://dev.stedi.me/validate/'+usertoken, //updates class 8 I don't remember 
             success: function(data){
                if (data==""){
                  window.location="/"
